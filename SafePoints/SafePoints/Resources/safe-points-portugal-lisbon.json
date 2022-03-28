@@ -1,0 +1,1552 @@
+{
+  "lisbon" : [
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.19541365717082, 38.7011453431758
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 1, 
+        "nome" : "Campo das Salésias", 
+        "designacao" : "1 - Campo das Salésias", 
+        "freguesia" : "Ajuda", 
+        "freg-servida" : "Também serve Alcântara e Belém", 
+        "address" : "Rua Matateu"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.18415367453037, 38.7025780522339
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 5, 
+        "nome" : "Tv Conde da Ribeira ou Lg igreja alto SAmaro", 
+        "designacao" : "5 - Tv Conde da Ribeira ou Lg igreja alto SAmaro", 
+        "freguesia" : "Alcântara", 
+        "freg-servida" : null, 
+        "address" : "Calçada de Santo Amaro"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.14414385630547, 38.7302461032567
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 16, 
+        "nome" : "Praça José Fontana", 
+        "designacao" : "16 - Praça José Fontana", 
+        "freguesia" : "Arroios", 
+        "freg-servida" : "Também serve Avenidas Novas", 
+        "address" : "Praça José Fontana"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.12757655545002, 38.741044814334
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 14, 
+        "nome" : "Av Afonso Costa (Frente SSCML)", 
+        "designacao" : "14 - Av Afonso Costa (Frente SSCML)", 
+        "freguesia" : "Areeiro", 
+        "freg-servida" : "Também serve Beato", 
+        "address" : "Av Afonso Costa "
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.13506477490444, 38.7588336140553
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 11, 
+        "nome" : "Parque José Gomes Ferreira", 
+        "designacao" : "11 - Parque José Gomes Ferreira", 
+        "freguesia" : "Alvalade", 
+        "freg-servida" : null, 
+        "address" : "R Alferes Malheiro"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.13894653009221, 38.7511026825157
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 10, 
+        "nome" : "Estádio 1º Maio", 
+        "designacao" : "10 - Estádio 1º Maio", 
+        "freguesia" : "Alvalade", 
+        "freg-servida" : null, 
+        "address" : "Av. Rio de Janeiro, Estádio 1º Maio"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.13827393821278, 38.7410276117146
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 12, 
+        "nome" : "Jardim da Irmã Lucia a norte da Igreja", 
+        "designacao" : "12 - Jardim da Irmã Lucia a norte da Igreja", 
+        "freguesia" : "Areeiro", 
+        "freg-servida" : null, 
+        "address" : "Praça de Londres c/ Av. Marconi"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.15626720900923, 38.7533822082065
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 9, 
+        "nome" : "Alameda da Universidade", 
+        "designacao" : "9 - Alameda da Universidade", 
+        "freguesia" : "Alvalade", 
+        "freg-servida" : null, 
+        "address" : "Alameda da Universidade"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.18018543184922, 38.7087810913149
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 6, 
+        "nome" : "Estacionamento do estádio da Tapadinha ", 
+        "designacao" : "6 - Estacionamento do estádio da Tapadinha ", 
+        "freguesia" : "Alcântara", 
+        "freg-servida" : null, 
+        "address" : "Rua Prof. Vieira Natividade"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.14538411449359, 38.742566785326
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 23, 
+        "nome" : "Praça do Campo Pequeno", 
+        "designacao" : "23 - Praça do Campo Pequeno", 
+        "freguesia" : "Avenidas Novas", 
+        "freg-servida" : "Também serve Areeiro", 
+        "address" : "Campo Pequeno c/ R de Entrecampos"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.1822797653681, 38.7650877720856
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 43, 
+        "nome" : "Av Cidade Praga (Parcelas vagas Lispolis)", 
+        "designacao" : "43 - Av Cidade Praga (Parcelas vagas Lispolis)", 
+        "freguesia" : "Carnide", 
+        "freg-servida" : null, 
+        "address" : "R Corino de Andrade"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.21088616768623, 38.7088680812909
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 28, 
+        "nome" : "Jardim da Igreja Paroquial S. Francisco Xavier", 
+        "designacao" : "28 - Jardim da Igreja Paroquial S. Francisco Xavier", 
+        "freguesia" : "Belém", 
+        "freg-servida" : null, 
+        "address" : "Av Ilha da Madeira c/ R Antão Gonçalves"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.21297933481044, 38.7170806425666
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 30, 
+        "nome" : "Rua da Igreja ao Bairro de Caselas", 
+        "designacao" : "30 - Rua da Igreja ao Bairro de Caselas", 
+        "freguesia" : "Belém", 
+        "freg-servida" : null, 
+        "address" : "Rua da Igreja ao Bairro de Caselas"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.16557916773575, 38.721489647943
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 36, 
+        "nome" : "Pátio das Sedas (Estacionamento)", 
+        "designacao" : "36 - Pátio das Sedas (Estacionamento)", 
+        "freguesia" : "Campo de Ourique", 
+        "freg-servida" : null, 
+        "address" : "R de Campo de Ourique c/ R Tomás de Assunção"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.11475465434763, 38.7319961775226
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 24, 
+        "nome" : "Largo da Madre Deus", 
+        "designacao" : "24 - Largo da Madre Deus", 
+        "freguesia" : "Beato", 
+        "freg-servida" : null, 
+        "address" : "Largo da Madre Deus"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.20381897300161, 38.7375198949525
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 31, 
+        "nome" : "Campo do Estádio de Pina Manique - Casa Pia", 
+        "designacao" : "31 - Campo do Estádio de Pina Manique - Casa Pia", 
+        "freguesia" : "Benfica", 
+        "freg-servida" : null, 
+        "address" : "Estrada da Circunvalação, estádio"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.19464293644773, 38.7464265771772
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 33, 
+        "nome" : "Estacionamento IPL", 
+        "designacao" : "33 - Estacionamento IPL", 
+        "freguesia" : "Benfica", 
+        "freg-servida" : null, 
+        "address" : "Campus de Benfica do Instituto Politécnico de Lisboa"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.1545986479793, 38.7115148907199
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 48, 
+        "nome" : "Jardim de S. Bento (Jardim das Francesinhas)", 
+        "designacao" : "48 - Jardim de S. Bento (Jardim das Francesinhas)", 
+        "freguesia" : "Estrela", 
+        "freg-servida" : "Também serve Misericórdia", 
+        "address" : "R das Francesinhas c/ Calçada da Estrela"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.14872603507796, 38.7162856594296
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 63, 
+        "nome" : "Praça do Príncipe Real", 
+        "designacao" : "63 - Praça do Príncipe Real", 
+        "freguesia" : "Misericórdia", 
+        "freg-servida" : "Também serve Santo António", 
+        "address" : "Praça do Príncipe Real"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.12991763137987, 38.7171277161584
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 88, 
+        "nome" : "Largo da Graça", 
+        "designacao" : "88 - Largo da Graça", 
+        "freguesia" : "São Vicente", 
+        "freg-servida" : null, 
+        "address" : "Largo da Graça"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.12633791847925, 38.7152764631955
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 89, 
+        "nome" : "Campo de Santa Clara", 
+        "designacao" : "89 - Campo de Santa Clara", 
+        "freguesia" : "São Vicente", 
+        "freg-servida" : "Também serve Santa Maria Maior", 
+        "address" : "Campo de Santa Clara"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.12491146749217, 38.7328483730368
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 74, 
+        "nome" : "Rua António Gonçalves (Estacionamento)", 
+        "designacao" : "74 - Rua António Gonçalves (Estacionamento)", 
+        "freguesia" : "Penha de França", 
+        "freg-servida" : null, 
+        "address" : "Rua António Gonçalves"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.11863902394517, 38.7668034993914
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 65, 
+        "nome" : "Parque Vale do Silêncio", 
+        "designacao" : "65 - Parque Vale do Silêncio", 
+        "freguesia" : "Olivais", 
+        "freg-servida" : null, 
+        "address" : "Pq Municipal do Vale do Silêncio"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.10160737346493, 38.7705472561288
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 69, 
+        "nome" : "Espaço entre R Padre Varzim e R Cons. Lopo Vaz", 
+        "designacao" : "69 - Espaço entre R Padre Varzim e R Cons. Lopo Vaz", 
+        "freguesia" : "Parque das Nações", 
+        "freg-servida" : null, 
+        "address" : "R Padre Abel Varzim c/ R Padre Joaquim Alves Correia"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.18369257618663, 38.7610701940011
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 41, 
+        "nome" : "Largo da Luz", 
+        "designacao" : "41 - Largo da Luz", 
+        "freguesia" : "Carnide", 
+        "freg-servida" : null, 
+        "address" : "Largo da Luz"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.17508472671934, 38.7692622977635
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 50, 
+        "nome" : "Jardim templo Hindu - Azinhaga dos Ulmeiros", 
+        "designacao" : "50 - Jardim templo Hindu - Azinhaga dos Ulmeiros", 
+        "freguesia" : "Lumiar", 
+        "freg-servida" : null, 
+        "address" : "Az dos Ulmeiros c/ Al Mahatma Gandhi"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.16161318796929, 38.7801056971682
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 75, 
+        "nome" : "Jardim da Qta de Santa Clara", 
+        "designacao" : "75 - Jardim da Qta de Santa Clara", 
+        "freguesia" : "Santa Clara", 
+        "freg-servida" : "Também serve Lumiar", 
+        "address" : "R Jorge de Sena c/ Estrada da Ameixoeira"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.146962339701, 38.7759326913528
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 56, 
+        "nome" : "Eixo Central (Próximo CSRPC)", 
+        "designacao" : "56 - Eixo Central (Próximo CSRPC)", 
+        "freguesia" : "Lumiar", 
+        "freg-servida" : "Também serve Santa Clara", 
+        "address" : "Eixo Central c/ Av David Mourão Ferreira"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.16808717096236, 38.7602218377334
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 52, 
+        "nome" : "Jardim Prof António Sousa Franco (Pad Portuguesa)", 
+        "designacao" : "52 - Jardim Prof António Sousa Franco (Pad Portuguesa)", 
+        "freguesia" : "Lumiar", 
+        "freg-servida" : null, 
+        "address" : "R Professor Francisco Gentil"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.14331521091971, 38.7866262451218
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 78, 
+        "nome" : "Campo das Amoreiras", 
+        "designacao" : "78 - Campo das Amoreiras", 
+        "freguesia" : "Santa Clara", 
+        "freg-servida" : null, 
+        "address" : "Campo das Amoreiras"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.15975803979303, 38.7873944140218
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 76, 
+        "nome" : "SkatePark Vale da Ameixoeira", 
+        "designacao" : "76 - SkatePark Vale da Ameixoeira", 
+        "freguesia" : "Santa Clara", 
+        "freg-servida" : null, 
+        "address" : "Estrada militar"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.15628672107048, 38.7220849115436
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 82, 
+        "nome" : "Praça das Amoreiras", 
+        "designacao" : "82 - Praça das Amoreiras", 
+        "freguesia" : "Santo António", 
+        "freg-servida" : "Também serve Campo de Ourique", 
+        "address" : "Praça das Amoreiras"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.18034958071673, 38.7137608469065
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 7, 
+        "nome" : "Jardim do Bairro do Alvito", 
+        "designacao" : "7 - Jardim do Bairro do Alvito", 
+        "freguesia" : "Alcântara", 
+        "freg-servida" : null, 
+        "address" : "Estrada do Alvito, Bairro do Alvito"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.13135429721966, 38.7372384378381
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 15, 
+        "nome" : "Alameda D. Afonso henriques (Nascente)", 
+        "designacao" : "15 - Alameda D. Afonso henriques (Nascente)", 
+        "freguesia" : "Areeiro/Arroios/Penha França", 
+        "freg-servida" : null, 
+        "address" : "Al. D. Afonso Henriques c/ R Rosa Damasceno"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.15892669864016, 38.7434852910329
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 21, 
+        "nome" : "R Soeiro Pereira Gomes, perto Mercado Rego", 
+        "designacao" : "21 - R Soeiro Pereira Gomes, perto Mercado Rego", 
+        "freguesia" : "Avenidas Novas", 
+        "freg-servida" : null, 
+        "address" : "R Soeiro Pereira Gomes"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.15513486236742, 38.731185980366
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 19, 
+        "nome" : "Jardim Amália Rodrigues", 
+        "designacao" : "19 - Jardim Amália Rodrigues", 
+        "freguesia" : "Avenidas Novas", 
+        "freg-servida" : "Também serve Campolide", 
+        "address" : "Alameda Cardeal Cerejeira"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.1422588405335, 38.7359091403527
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 20, 
+        "nome" : "Jardim do Arco do Cego", 
+        "designacao" : "20 - Jardim do Arco do Cego", 
+        "freguesia" : "Avenidas Novas", 
+        "freg-servida" : "Também serve Areeiro e Arroios", 
+        "address" : "Av Duque D&#039;Ávila c/ R Dona Filipa Vilhena"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.21391981181823, 38.7001609847487
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 26, 
+        "nome" : "Jardim Ducla Soares", 
+        "designacao" : "26 - Jardim Ducla Soares", 
+        "freguesia" : "Belém", 
+        "freg-servida" : null, 
+        "address" : "Av do Restelo"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.20806640123171, 38.7043617013347
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 27, 
+        "nome" : "Zona ajardinada Museu Etnologia", 
+        "designacao" : "27 - Zona ajardinada Museu Etnologia", 
+        "freguesia" : "Belém", 
+        "freg-servida" : null, 
+        "address" : "Rua Rui Pereira"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.20696248640126, 38.7492043031227
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 34, 
+        "nome" : "Clube Futebol Benfica (Fófó)", 
+        "designacao" : "34 - Clube Futebol Benfica (Fófó)", 
+        "freguesia" : "Benfica", 
+        "freg-servida" : null, 
+        "address" : "R Oliveira Serpa"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.16498661331762, 38.7365165756316
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 40, 
+        "nome" : "Jardim Amnistia Internacional", 
+        "designacao" : "40 - Jardim Amnistia Internacional", 
+        "freguesia" : "Campolide", 
+        "freg-servida" : "Também serve São Domingos de Benfica", 
+        "address" : "R Cardeal Saraiva"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.16104984252546, 38.7340204757459
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 39, 
+        "nome" : "UNL - Campus Campolide (relvado)", 
+        "designacao" : "39 - UNL - Campus Campolide (relvado)", 
+        "freguesia" : "Campolide", 
+        "freg-servida" : "Também serve Avenidas Novas", 
+        "address" : "Trav de Estevão Pinto, Campus de Campolide"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.19296321890108, 38.7664706989956
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 42, 
+        "nome" : "Parque Verde de Carnide", 
+        "designacao" : "42 - Parque Verde de Carnide", 
+        "freguesia" : "Carnide", 
+        "freg-servida" : null, 
+        "address" : "R Prof Arsénio Nunes"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.16956503209403, 38.7092433966568
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 45, 
+        "nome" : "Tapada das Necessidades", 
+        "designacao" : "45 - Tapada das Necessidades", 
+        "freguesia" : "Estrela", 
+        "freg-servida" : null, 
+        "address" : "Calçada das Necessidades"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.1591829023948, 38.7147337521639
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 47, 
+        "nome" : "Jardim da Estrela", 
+        "designacao" : "47 - Jardim da Estrela", 
+        "freguesia" : "Estrela", 
+        "freg-servida" : "Também serve Campo de Ourique", 
+        "address" : "Jardim da Estrela"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.10982752286517, 38.7406748732705
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 57, 
+        "nome" : "R António Gedeão - Biblioteca Marvila", 
+        "designacao" : "57 - R António Gedeão - Biblioteca Marvila", 
+        "freguesia" : "Marvila", 
+        "freg-servida" : null, 
+        "address" : "R António Gedeão c/ R Eduarda Lapa"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.11839541288605, 38.7464971207542
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 59, 
+        "nome" : "Espaço entre Av Francisco Zenha e Av F Mitterand", 
+        "designacao" : "59 - Espaço entre Av Francisco Zenha e Av F Mitterand", 
+        "freguesia" : "Marvila", 
+        "freg-servida" : null, 
+        "address" : "Av Francisco Salgado Zenha c/ Av. Ucrânia"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.12571839905725, 38.7503784740745
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 58, 
+        "nome" : "Parque da Bela Vista (Prox Casa da Pedra)", 
+        "designacao" : "58 - Parque da Bela Vista (Prox Casa da Pedra)", 
+        "freguesia" : "Marvila", 
+        "freg-servida" : null, 
+        "address" : "Av Dr. Arlindo Vicente"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.10971720888231, 38.7508972264445
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 61, 
+        "nome" : "R Manuel Teixeira Gomes, prox Pavilhao Vale Fundão", 
+        "designacao" : "61 - R Manuel Teixeira Gomes, prox Pavilhao Vale Fundão", 
+        "freguesia" : "Marvila", 
+        "freg-servida" : null, 
+        "address" : "R Manuel Teixeira Gomes"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.14425634414747, 38.715177332851
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 64, 
+        "nome" : "Miradouro de S. Pedro de Alcântara", 
+        "designacao" : "64 - Miradouro de S. Pedro de Alcântara", 
+        "freguesia" : "Misericórdia", 
+        "freg-servida" : "Também serve Santa Maria Maior", 
+        "address" : "R de S. Pedro de Alcântara"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.10784670059045, 38.7621824499554
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 67, 
+        "nome" : "R do Chibuto, Campo do Sport Lisboa e Olivais", 
+        "designacao" : "67 - R do Chibuto, Campo do Sport Lisboa e Olivais", 
+        "freguesia" : "Olivais", 
+        "freg-servida" : null, 
+        "address" : "R do Chibuto, Campo do Sport Lisboa e Olivais"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.11793183128338, 38.7732761744206
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 66, 
+        "nome" : "Alameda da Encarnação - Jardim Igreja Sto Eugénio ", 
+        "designacao" : "66 - Alameda da Encarnação - Jardim Igreja Sto Eugénio ", 
+        "freguesia" : "Olivais", 
+        "freg-servida" : null, 
+        "address" : "Alameda da Encarnação, igreja St Eugénio"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.12830026689584, 38.7237438593442
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 71, 
+        "nome" : "Av Gen Roçadas - Pq Estac perto Vila Candida", 
+        "designacao" : "71 - Av Gen Roçadas - Pq Estac perto Vila Candida", 
+        "freguesia" : "Penha de França", 
+        "freg-servida" : "Também serve São Vicente", 
+        "address" : "Av General Roçadas c/ R Frei Manuel do Cenáculo"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.11839377266869, 38.7227864392669
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 73, 
+        "nome" : "Topo da Rua Matilde Rosa Araújo", 
+        "designacao" : "73 - Topo da Rua Matilde Rosa Araújo", 
+        "freguesia" : "Penha de França", 
+        "freg-servida" : null, 
+        "address" : "Alto Varejão c/ R Matilde Rosa Araújo"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.15189301355847, 38.7900768325529
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 77, 
+        "nome" : "Feira das Galinheiras", 
+        "designacao" : "77 - Feira das Galinheiras", 
+        "freguesia" : "Santa Clara", 
+        "freg-servida" : null, 
+        "address" : "Estrada militar c/ R Maluda"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.13933998228458, 38.7138212045698
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 79, 
+        "nome" : "Praça D. Pedro IV (Rossio)", 
+        "designacao" : "79 - Praça D. Pedro IV (Rossio)", 
+        "freguesia" : "Santa Maria Maior", 
+        "freg-servida" : null, 
+        "address" : "Praça D. Pedro IV"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.13786869508797, 38.7137185750108
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 80, 
+        "nome" : "Praça da Figueira", 
+        "designacao" : "80 - Praça da Figueira", 
+        "freguesia" : "Santa Maria Maior", 
+        "freg-servida" : null, 
+        "address" : "Praça da Figueira"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.17715522912066, 38.7392024917362
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 83, 
+        "nome" : "Pq Estacionamento do Sítio do Calhau", 
+        "designacao" : "83 - Pq Estacionamento do Sítio do Calhau", 
+        "freguesia" : "São Domingos de Benfica", 
+        "freg-servida" : null, 
+        "address" : "R António Macedo"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.17632336337055, 38.7532357557338
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 86, 
+        "nome" : "Parque Bensaúde", 
+        "designacao" : "86 - Parque Bensaúde", 
+        "freguesia" : "São Domingos de Benfica", 
+        "freg-servida" : null, 
+        "address" : "R Maestro Jaime Silva (filho)"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.16899628163997, 38.7495848668832
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 87, 
+        "nome" : "Rua Manuel da Fonseca", 
+        "designacao" : "87 - Rua Manuel da Fonseca", 
+        "freguesia" : "São Domingos de Benfica", 
+        "freg-servida" : null, 
+        "address" : "Rua Manuel da Fonseca"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.19937313060376, 38.7126466342025
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 4, 
+        "nome" : "Av Universidade Técnica (Ajuda)", 
+        "designacao" : "4 - Av Universidade Técnica (Ajuda)", 
+        "freguesia" : "Ajuda", 
+        "freg-servida" : null, 
+        "address" : "Av. Universidade Técnica c/ R Sá de Nogueira"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.16944626493327, 38.7141677228783
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 46, 
+        "nome" : "Praça São João Bosco", 
+        "designacao" : "46 - Praça São João Bosco", 
+        "freguesia" : "Estrela", 
+        "freg-servida" : "Também serve Campo de Ourique", 
+        "address" : "Praça São João Bosco"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.14003755473653, 38.721394600403
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 17, 
+        "nome" : "Campo dos Mártires da Pátria - Jardim sul", 
+        "designacao" : "17 - Campo dos Mártires da Pátria - Jardim sul", 
+        "freguesia" : "Arroios", 
+        "freg-servida" : "Também serve Santo António", 
+        "address" : "Campo dos Mártires da Pátria"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.11458260441864, 38.7559912539706
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 62, 
+        "nome" : "ISEL (Estacionamento)", 
+        "designacao" : "62 - ISEL (Estacionamento)", 
+        "freguesia" : "Marvila", 
+        "freg-servida" : "Também serve Olivais", 
+        "address" : "R Conselheiro Emídio Navarro c/ Av Dr Augusto de Castro"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.09736915648482, 38.7592394640227
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 68, 
+        "nome" : "Estacionamento Pingo Doce, R Corsário das Ilhas", 
+        "designacao" : "68 - Estacionamento Pingo Doce, R Corsário das Ilhas", 
+        "freguesia" : "Parque das Nações", 
+        "freg-servida" : null, 
+        "address" : "R Corsário das Ilhas"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.09827788558079, 38.7771058446652
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 70, 
+        "nome" : "Parque da Saúde (Estacionamento)", 
+        "designacao" : "70 - Parque da Saúde (Estacionamento)", 
+        "freguesia" : "Parque das Nações", 
+        "freg-servida" : null, 
+        "address" : "R de Moscavide ao Pq das Nações"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.17607594313423, 38.7634041105673
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 49, 
+        "nome" : "Jardim gaveto - Rua prof Luís da Cunha Gonçalves", 
+        "designacao" : "49 - Jardim gaveto - Rua prof Luís da Cunha Gonçalves", 
+        "freguesia" : "Lumiar", 
+        "freg-servida" : "Também serve Carnide", 
+        "address" : "R Prof Luís da Cunha Gonçalves c/ R Prof Moisés Amzalak"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.17203445459297, 38.773414492337
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 51, 
+        "nome" : "Largo do Paço do Lumiar", 
+        "designacao" : "51 - Largo do Paço do Lumiar", 
+        "freguesia" : "Lumiar", 
+        "freg-servida" : null, 
+        "address" : "Largo do Paço"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.15142851328988, 38.7689058363476
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 55, 
+        "nome" : "Quinta das Conchas (Extrema Nascente )", 
+        "designacao" : "55 - Quinta das Conchas (Extrema Nascente )", 
+        "freguesia" : "Lumiar", 
+        "freg-servida" : null, 
+        "address" : "Eixo Central c/ Av Eugénio de Andrade"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.16781619408824, 38.7543482716059
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 8, 
+        "nome" : "Jardim da Quinta dos Barros", 
+        "designacao" : "8 - Jardim da Quinta dos Barros", 
+        "freguesia" : "Alvalade", 
+        "freg-servida" : "Também serve São Domingos de Benfica", 
+        "address" : "Az dos Barros c/ R Eng Caldeira Rodrigues"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.20174382476158, 38.7032726425416
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 2, 
+        "nome" : "Largo da Memória ", 
+        "designacao" : "2 - Largo da Memória ", 
+        "freguesia" : "Ajuda", 
+        "freg-servida" : "Também serve Belém", 
+        "address" : "Cc do Galvão c/ Largo da Memória"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.1546517964627, 38.7407629408585
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 22, 
+        "nome" : "Rua da Beneficiencia com Av Santos Dumont", 
+        "designacao" : "22 - Rua da Beneficiencia com Av Santos Dumont", 
+        "freguesia" : "Avenidas Novas", 
+        "freg-servida" : null, 
+        "address" : "Rua da Beneficiencia c/ Av Santos Dumont"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.2072399532561, 38.7147675913082
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 29, 
+        "nome" : "Belém Rugby Park", 
+        "designacao" : "29 - Belém Rugby Park", 
+        "freguesia" : "Belém", 
+        "freg-servida" : "Também serve Ajuda", 
+        "address" : "Av dos Bombeiros"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.19633863250747, 38.7074236341704
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 3, 
+        "nome" : "Largo da Ajuda", 
+        "designacao" : "3 - Largo da Ajuda", 
+        "freguesia" : "Ajuda", 
+        "freg-servida" : null, 
+        "address" : "Largo da Ajuda"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.19478225116535, 38.7543426369266
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 35, 
+        "nome" : "Quinta da Granja, Av Marechal  Teixeira Rebelo", 
+        "designacao" : "35 - Quinta da Granja, Av Marechal  Teixeira Rebelo", 
+        "freguesia" : "Benfica", 
+        "freg-servida" : "Também serve Carnide", 
+        "address" : "Av Marechal  Teixeira Rebelo c/ R José Marinho"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.19894267742901, 38.743722633875
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 32, 
+        "nome" : "Residência Universitária - Calhariz Benfica", 
+        "designacao" : "32 - Residência Universitária - Calhariz Benfica", 
+        "freguesia" : "Benfica", 
+        "freg-servida" : null, 
+        "address" : "Estrada Calhariz de Benfica c/ R José Augusto Seabra"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.1778400765713, 38.7430871244343
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 84, 
+        "nome" : "Largo Conde Ottolini", 
+        "designacao" : "84 - Largo Conde Ottolini", 
+        "freguesia" : "São Domingos de Benfica", 
+        "freg-servida" : null, 
+        "address" : "Largo Conde Ottolini"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.16633786804441, 38.7678394161516
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 53, 
+        "nome" : "Colégio Planalto", 
+        "designacao" : "53 - Colégio Planalto", 
+        "freguesia" : "Lumiar", 
+        "freg-servida" : null, 
+        "address" : "R Armindo Rodrigues"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.15103829577929, 38.7651311895605
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 54, 
+        "nome" : "Metro Lisboa Workshop (antigas oficinas do Metro)", 
+        "designacao" : "54 - Metro Lisboa Workshop (antigas oficinas do Metro)", 
+        "freguesia" : "Lumiar", 
+        "freg-servida" : null, 
+        "address" : "R Manuel da Silva"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.13627806252728, 38.7449563731441
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 13, 
+        "nome" : "Praça Afrânio Peixoto\r\n", 
+        "designacao" : "13 - Praça Afrânio Peixoto\r\n", 
+        "freguesia" : "Areeiro", 
+        "freg-servida" : null, 
+        "address" : "Pç Afrânio Peixoto"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.15176859404508, 38.7270837792236
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 18, 
+        "nome" : "Parque Eduardo VII (área sul)", 
+        "designacao" : "18 - Parque Eduardo VII (área sul)", 
+        "freguesia" : "Avenidas Novas", 
+        "freg-servida" : "Também serve Santo António", 
+        "address" : "Al Edgar Cardoso"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.11324632892362, 38.7470325735397
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 60, 
+        "nome" : "Praça Dr. Fernando Amado", 
+        "designacao" : "60 - Praça Dr. Fernando Amado", 
+        "freguesia" : "Marvila", 
+        "freg-servida" : null, 
+        "address" : "Pç Dr. Fernando Amado"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.16947621478572, 38.7320590658125
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 38, 
+        "nome" : "Estacionamento Bairro Liberdade", 
+        "designacao" : "38 - Estacionamento Bairro Liberdade", 
+        "freguesia" : "Campolide", 
+        "freg-servida" : null, 
+        "address" : "R do Bairro da Liberdade c/ Cç da Estação"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.12072950426954, 38.7367021683588
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 25, 
+        "nome" : "Descampado no Casal do Pinto", 
+        "designacao" : "25 - Descampado no Casal do Pinto", 
+        "freguesia" : "Beato", 
+        "freg-servida" : null, 
+        "address" : null
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.13629616310232, 38.7160396811559
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 81, 
+        "nome" : "Martim Moniz", 
+        "designacao" : "81 - Martim Moniz", 
+        "freguesia" : "Santa Maria Maior", 
+        "freg-servida" : "Também serve Arroios", 
+        "address" : "Pç Martim Moniz"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -9.17080796503776, 38.7240156975578
+        ]
+      }, 
+      "properties" : {
+        "ordem" : 37, 
+        "nome" : "Parque da Bela Flor", 
+        "designacao" : "37 - Parque da Bela Flor", 
+        "freguesia" : "Campolide", 
+        "freg-servida" : null, 
+        "address" : "Rua da Bela Flor"
+      }
+    }
+  ]
+}
