@@ -16,18 +16,38 @@ struct SafePointsMapView: View {
     var body: some View {
         GeometryReader { geometry in
             ZStack(alignment: .bottom) {
-                Map(coordinateRegion: $viewModel.region, annotationItems: viewModel.safePoints) { point in
-                    MapAnnotation(coordinate: point.geometry.location) {
-                        Image(systemName: "mappin.circle.fill")
-                            .font(.title)
-                            .foregroundColor(.red)
-                            .onTapGesture {
-                                viewModel.selectedPoint = point
-                                viewModel.centerMapOnPoint(point)
-                            }
+                if viewModel.shouldShowClusters {
+                    // Show clusters
+                    Map(coordinateRegion: $viewModel.region, annotationItems: viewModel.getClusters()) { cluster in
+                        MapAnnotation(coordinate: cluster.coordinate) {
+                            ClusterMarkerView(count: cluster.count, title: cluster.freguesia)
+                                .onTapGesture {
+                                    withAnimation {
+                                        viewModel.region.center = cluster.coordinate
+                                        viewModel.region.span = MKCoordinateSpan(
+                                            latitudeDelta: viewModel.clusterThreshold / 2,
+                                            longitudeDelta: viewModel.clusterThreshold / 2
+                                        )
+                                    }
+                                }
+                        }
+                    }
+                } else {
+                    // Show individual points
+                    Map(coordinateRegion: $viewModel.region, annotationItems: viewModel.safePoints) { point in
+                        MapAnnotation(coordinate: point.geometry.location) {
+                            Image("safe-point")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 32, height: 32)
+                                .onTapGesture {
+                                    viewModel.selectedPoint = point
+                                    viewModel.centerMapOnPoint(point)
+                                }
+                        }
                     }
                 }
-                .ignoresSafeArea()
+//                .ignoresSafeArea()
                 
                 if let selectedPoint = viewModel.selectedPoint {
                     SafePointDetailView(safePoint: selectedPoint, height: geometry.size.height * 0.3)
