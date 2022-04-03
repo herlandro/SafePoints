@@ -7,7 +7,6 @@
 
 import SwiftUI
 import MapKit
-import UIKit
 
 struct SafePointsMapView: View {
     @StateObject private var viewModel = SafePointsViewModel()
@@ -23,6 +22,7 @@ struct SafePointsMapView: View {
                             ClusterMarkerView(count: cluster.count, title: cluster.freguesia)
                                 .onTapGesture {
                                     withAnimation {
+                                        viewModel.selectedPoint = nil
                                         viewModel.region.center = cluster.coordinate
                                         viewModel.region.span = MKCoordinateSpan(
                                             latitudeDelta: viewModel.clusterThreshold / 2,
@@ -32,6 +32,14 @@ struct SafePointsMapView: View {
                                 }
                         }
                     }
+                    .simultaneousGesture(
+                        TapGesture()
+                            .onEnded { _ in
+                                withAnimation {
+                                    viewModel.selectedPoint = nil
+                                }
+                            }
+                    )
                 } else {
                     // Show individual points
                     Map(coordinateRegion: $viewModel.region, annotationItems: viewModel.safePoints) { point in
@@ -41,11 +49,25 @@ struct SafePointsMapView: View {
                                 .scaledToFit()
                                 .frame(width: 32, height: 32)
                                 .onTapGesture {
-                                    viewModel.selectedPoint = point
-                                    viewModel.centerMapOnPoint(point)
+                                    withAnimation {
+                                        if viewModel.selectedPoint?.id == point.id {
+                                            viewModel.selectedPoint = nil
+                                        } else {
+                                            viewModel.selectedPoint = point
+                                            viewModel.centerMapOnPoint(point)
+                                        }
+                                    }
                                 }
                         }
                     }
+                    .simultaneousGesture(
+                        TapGesture()
+                            .onEnded { _ in
+                                withAnimation {
+                                    viewModel.selectedPoint = nil
+                                }
+                            }
+                    )
                 }
 //                .ignoresSafeArea()
                 
