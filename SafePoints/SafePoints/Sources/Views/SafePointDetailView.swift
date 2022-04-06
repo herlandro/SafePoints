@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import UIKit
 
 struct SafePointDetailView: View {
     let safePoint: SafePoint
@@ -44,4 +43,26 @@ struct SafePointDetailView: View {
                 .shadow(radius: 5)
         )
     }
-} 
+}
+
+#Preview {
+    let safePoint = SafePoint(
+        type: "Feature",
+        geometry: Geometry(
+            type: "Point",
+            coordinates: [-9.14414385630547, 38.7302461032567]
+        ),
+        properties: Properties(
+            ordem: 16,
+            nome: "Praça José Fontana",
+            designacao: "16 - Praça José Fontana",
+            freguesia: "Arroios",
+            fregServida: "Também serve Avenidas Novas",
+            address: "Praça José Fontana"
+        )
+    )
+    SafePointDetailView(
+        safePoint: safePoint,
+        height: 200
+    )
+}

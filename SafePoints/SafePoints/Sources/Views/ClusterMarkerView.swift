@@ -31,4 +31,8 @@ struct ClusterMarkerView: View {
             }
         }
     }
-} 
+}
+
+#Preview {
+    ClusterMarkerView(count: 86, title: "Lisbon")
+}
