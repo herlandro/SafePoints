@@ -116,10 +116,16 @@ class SafePointsViewModel: ObservableObject {
         centerMapOnPoint(selectedPoint!)
     }
     
-    func centerMapOnPoint(_ point: SafePoint) {
+    func centerMapOnPoint(_ point: SafePoint, topOffset: Double = 0.5) {
+        let span = MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
+        let centerLatitude = point.geometry.location.latitude - (span.latitudeDelta * (0.5 - topOffset))
+        
         region = MKCoordinateRegion(
-            center: point.geometry.location,
-            span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
+            center: CLLocationCoordinate2D(
+                latitude: centerLatitude,
+                longitude: point.geometry.location.longitude
+            ),
+            span: span
         )
     }
 } 
