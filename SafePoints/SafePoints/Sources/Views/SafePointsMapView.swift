@@ -10,58 +10,61 @@ import MapKit
 
 struct SafePointsMapView: View {
     @StateObject private var viewModel = SafePointsViewModel()
-    @State private var dragOffset: CGFloat = 0
+    @State private var sheetPosition: SheetPosition = .mid
     
     var body: some View {
-        GeometryReader { geometry in
-            ZStack(alignment: .bottom) {
-                if viewModel.shouldShowClusters {
-                    // Show clusters
-                    Map(coordinateRegion: $viewModel.region, annotationItems: viewModel.getClusters()) { cluster in
-                        MapAnnotation(coordinate: cluster.coordinate) {
-                            ClusterMarkerView(count: cluster.count, title: cluster.freguesia)
-                                .onTapGesture {
-                                    withAnimation {
-                                        viewModel.region.center = cluster.coordinate
-                                        viewModel.region.span = MKCoordinateSpan(
-                                            latitudeDelta: viewModel.clusterThreshold / 2,
-                                            longitudeDelta: viewModel.clusterThreshold / 2
-                                        )
-                                    }
+        ZStack(alignment: .topTrailing) {
+            // Map view
+            if viewModel.shouldShowClusters {
+                Map(coordinateRegion: $viewModel.region, annotationItems: viewModel.getClusters()) { cluster in
+                    MapAnnotation(coordinate: cluster.coordinate) {
+                        ClusterMarkerView(count: cluster.count, title: cluster.freguesia)
+                            .onTapGesture {
+                                withAnimation {
+                                    viewModel.region.center = cluster.coordinate
+                                    viewModel.region.span = MKCoordinateSpan(
+                                        latitudeDelta: viewModel.clusterThreshold / 2,
+                                        longitudeDelta: viewModel.clusterThreshold / 2
+                                    )
                                 }
-                        }
-                    }
-                } else {
-                    // Show individual points
-                    Map(coordinateRegion: $viewModel.region, annotationItems: viewModel.safePoints) { point in
-                        MapAnnotation(coordinate: point.geometry.location) {
-                            Image("safe-point")
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 32, height: 32)
-                                .onTapGesture {
-                                    withAnimation {
-                                        viewModel.selectedPoint = point
-                                        viewModel.centerMapOnPoint(point, topOffset: 0.25)
-                                    }
-                                }
-                        }
+                            }
                     }
                 }
-                
+            } else {
+                Map(coordinateRegion: $viewModel.region, annotationItems: viewModel.safePoints) { point in
+                    MapAnnotation(coordinate: point.geometry.location) {
+                        Image("safe-point")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 32, height: 32)
+                            .onTapGesture {
+                                withAnimation {
+                                    viewModel.selectedPoint = point
+                                    viewModel.centerMapOnPoint(point, topOffset: 0.25)
+                                }
+                            }
+                    }
+                }
+            }
+            
+            // Weather view
+            WeatherView(temperature: 20, condition: "Sunny", aqi: 2)
+                .padding()
+            
+            // Bottom sheet
+            BottomSheetView(position: $sheetPosition) {
                 SafePointsListView(
                     safePoints: viewModel.safePoints,
                     selectedPoint: $viewModel.selectedPoint,
-                    height: geometry.size.height * 0.5,
                     onPointSelected: { point in
                         withAnimation {
                             viewModel.centerMapOnPoint(point, topOffset: 0.25)
                         }
                     }
                 )
-                .transition(.move(edge: .bottom))
             }
         }
+        .ignoresSafeArea()
         .onAppear {
             viewModel.loadSafePoints()
         }
