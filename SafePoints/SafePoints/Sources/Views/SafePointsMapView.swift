@@ -48,7 +48,7 @@ struct SafePointsMapView: View {
             }
             
             // Weather view
-            WeatherView(temperature: 20, condition: "Sunny", aqi: 2)
+            WeatherView()
                 .padding()
             
             // Bottom sheet
