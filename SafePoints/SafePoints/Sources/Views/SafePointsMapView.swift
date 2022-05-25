@@ -13,7 +13,7 @@ struct SafePointsMapView: View {
     @State private var sheetPosition: SheetPosition = .mid
     
     var body: some View {
-        ZStack(alignment: .topTrailing) {
+        ZStack(alignment: .trailing) {
             // Map view
             if viewModel.shouldShowClusters {
                 Map(coordinateRegion: $viewModel.region, annotationItems: viewModel.getClusters()) { cluster in
@@ -50,6 +50,9 @@ struct SafePointsMapView: View {
             // Weather view
             WeatherView()
                 .padding()
+                .offset(y: -100) // Center it vertically with some offset from the exact center
+                .opacity(sheetPosition == .expanded ? 0 : 1) // Hide when sheet is expanded
+                .animation(.easeInOut(duration: 0.3), value: sheetPosition) // Smooth animation
             
             // Bottom sheet
             BottomSheetView(position: $sheetPosition) {

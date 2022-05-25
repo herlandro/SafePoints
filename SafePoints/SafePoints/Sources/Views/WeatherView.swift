@@ -4,25 +4,74 @@ import CoreLocation
 struct WeatherView: View {
     @StateObject private var viewModel = WeatherViewModel()
     
+    private func aqiColor(_ value: Int) -> Color {
+        switch value {
+        case 1...2:
+            return .green
+        case 3...4:
+            return .yellow
+        case 5...6:
+            return .orange
+        case 7...8:
+            return .red
+        case 9...10:
+            return .purple
+        default:
+            return .brown
+        }
+    }
+    
+    private func aqiDescription(_ value: Int) -> String {
+        switch value {
+        case 1...2:
+            return "Boa"
+        case 3...4:
+            return "Moderada"
+        case 5...6:
+            return "Sensível"
+        case 7...8:
+            return "Insalubre"
+        case 9...10:
+            return "Muito Insalubre"
+        default:
+            return "Perigosa"
+        }
+    }
+    
     var body: some View {
-        HStack(spacing: 4) {
-            Image(systemName: viewModel.weatherIcon)
-                .foregroundColor(.yellow)
-            
-            if let temperature = viewModel.temperature {
-                Text("\(Int(round(temperature)))°")
-                    .font(.system(size: 16, weight: .medium))
-            } else {
-                Text("--°")
-                    .font(.system(size: 16, weight: .medium))
+        HStack(spacing: 8) {
+            // Temperatura e ícone
+            HStack(spacing: 4) {
+                Image(systemName: viewModel.weatherIcon)
+                    .foregroundColor(.yellow)
+                
+                if let temperature = viewModel.temperature {
+                    Text("\(Int(round(temperature)))°")
+                        .font(.system(size: 16, weight: .medium))
+                } else {
+                    Text("--°")
+                        .font(.system(size: 16, weight: .medium))
+                }
             }
             
-            Text("AQI \(viewModel.aqi)")
-                .font(.system(size: 14))
-                .padding(.horizontal, 4)
-                .padding(.vertical, 2)
-                .background(Color.green.opacity(0.2))
-                .cornerRadius(4)
+            // Separador vertical
+            Rectangle()
+                .fill(Color.gray.opacity(0.3))
+                .frame(width: 1, height: 20)
+            
+            // Indicador de qualidade do ar
+            HStack(spacing: 4) {
+                Circle()
+                    .fill(aqiColor(viewModel.aqi))
+                    .frame(width: 12, height: 12)
+                
+                Text("AQI \(viewModel.aqi)")
+                    .font(.system(size: 14))
+                
+                Text(aqiDescription(viewModel.aqi))
+                    .font(.system(size: 12))
+                    .foregroundColor(.secondary)
+            }
         }
         .padding(.horizontal, 8)
         .padding(.vertical, 4)

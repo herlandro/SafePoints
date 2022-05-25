@@ -21,7 +21,8 @@ struct WeatherData: Codable {
 }
 
 class WeatherService: WeatherServiceProtocol {
-    private let apiKey: String = "" // You'll need to add your OpenWeatherMap API key here
+    // TODO: Move to secure configuration
+    private let apiKey: String = "c011f3b4d04ba9f25f8664e3b957b2d6"
     
     func getCurrentWeather(latitude: Double, longitude: Double) async throws -> WeatherData {
         let urlString = "https://api.openweathermap.org/data/2.5/weather?lat=\(latitude)&lon=\(longitude)&units=metric&appid=\(apiKey)"
