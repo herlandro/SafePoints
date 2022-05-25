@@ -13,15 +13,17 @@ struct SafePointListItemView: View {
     
     var body: some View {
         HStack(spacing: 12) {
-            Circle()
-                .fill(isSelected ? Color.blue : Color.red)
-                .frame(width: 48, height: 48)
-                .overlay(
-                    Image("safe-point")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 32, height: 32)
-                )
+            ZStack {
+                Circle()
+                    .fill(isSelected ? Color.green : Color(red: 0, green: 0.6, blue: 0))
+                    .frame(width: 48, height: 48)
+                
+                Image("pin")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 48, height: 48) // Slightly smaller to fit nicely inside circle
+            }
+            .frame(width: 48, height: 48) // Ensure consistent size
             
             VStack(alignment: .leading, spacing: 4) {
                 Text(point.properties.nome)
@@ -41,11 +43,32 @@ struct SafePointListItemView: View {
             Spacer()
         }
         .padding(.vertical, 8)
-        .background(isSelected ? Color.blue.opacity(0.1) : Color.clear)
-        .cornerRadius(8)
+        .padding(.horizontal)
+        .background(isSelected ? Color.green.opacity(0.1) : Color.clear)
+        .cornerRadius(4.0)
+        .contentShape(Rectangle()) // Makes the entire row tappable
     }
 }
 
-#Preview {
-    SafePointsMapView()
+struct SafePointListItemView_Previews: PreviewProvider {
+    static var previews: some View {
+        SafePointListItemView(
+            point: SafePoint(
+                type: "Feature",
+                geometry: Geometry(
+                    type: "Point",
+                    coordinates: [-9.14414385630547, 38.7302461032567]
+                ),
+                properties: Properties(
+                    ordem: 16,
+                    nome: "Praça José Fontana",
+                    designacao: "16 - Praça José Fontana",
+                    freguesia: "Arroios",
+                    fregServida: "Também serve Avenidas Novas",
+                    address: "Praça José Fontana"
+                )
+            ),
+            isSelected: false
+        )
+    }
 } 

@@ -33,10 +33,10 @@ struct SafePointsMapView: View {
             } else {
                 Map(coordinateRegion: $viewModel.region, annotationItems: viewModel.safePoints) { point in
                     MapAnnotation(coordinate: point.geometry.location) {
-                        Image("safe-point")
+                        Image("pin")
                             .resizable()
                             .scaledToFit()
-                            .frame(width: 32, height: 32)
+                            .frame(width: 40, height: 40)
                             .onTapGesture {
                                 withAnimation {
                                     viewModel.selectedPoint = point
@@ -50,7 +50,7 @@ struct SafePointsMapView: View {
             // Weather view
             WeatherView()
                 .padding()
-                .offset(y: -100) // Center it vertically with some offset from the exact center
+                .offset(y: -32) // Center it vertically with some offset from the exact center
                 .opacity(sheetPosition == .expanded ? 0 : 1) // Hide when sheet is expanded
                 .animation(.easeInOut(duration: 0.3), value: sheetPosition) // Smooth animation
             

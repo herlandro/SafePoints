@@ -9,7 +9,7 @@ struct ClusterMarkerView: View {
             // Circle with count
             ZStack {
                 Circle()
-                    .fill(Color.red)
+                    .fill(Color(red: 0, green: 0.6, blue: 0)) // Standard emergency meeting point green
                     .frame(width: 40, height: 40)
                     .shadow(radius: 2)
                 
