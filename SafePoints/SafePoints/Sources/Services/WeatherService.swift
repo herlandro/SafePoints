@@ -5,24 +5,9 @@ protocol WeatherServiceProtocol {
     func getCurrentWeather(latitude: Double, longitude: Double) async throws -> WeatherData
 }
 
-struct WeatherData: Codable {
-    let main: MainData
-    let weather: [Weather]
-    let aqi: Int
-    
-    struct MainData: Codable {
-        let temp: Double
-    }
-    
-    struct Weather: Codable {
-        let main: String
-        let description: String
-    }
-}
-
 class WeatherService: WeatherServiceProtocol {
-    // TODO: Move to secure configuration
-    private let apiKey: String = "c011f3b4d04ba9f25f8664e3b957b2d6"
+
+    private let apiKey: String = APIConfig.openWeatherMapKey
     
     func getCurrentWeather(latitude: Double, longitude: Double) async throws -> WeatherData {
         let urlString = "https://api.openweathermap.org/data/2.5/weather?lat=\(latitude)&lon=\(longitude)&units=metric&appid=\(apiKey)"
@@ -38,7 +23,18 @@ class WeatherService: WeatherServiceProtocol {
             throw NSError(domain: "WeatherService", code: 500, userInfo: [NSLocalizedDescriptionKey: "Server error"])
         }
         
-        let weatherData = try JSONDecoder().decode(WeatherData.self, from: data)
-        return weatherData
+        // For debugging
+        if let jsonString = String(data: data, encoding: .utf8) {
+            print("API Response: \(jsonString)")
+        }
+        
+        let decoder = JSONDecoder()
+        let weatherResponse = try decoder.decode(OpenWeather.self, from: data)
+        
+        return WeatherData(
+            main: WeatherData.MainData(temp: weatherResponse.main.temp),
+            weather: [WeatherData.Weather(main: weatherResponse.weather.first?.main ?? "", description: weatherResponse.weather.first?.description ?? "")],
+            aqi: 2 // Default value since we're not fetching AQI in this endpoint
+        )
     }
-} 
+}

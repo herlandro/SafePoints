@@ -24,23 +24,23 @@ struct WeatherView: View {
     private func aqiDescription(_ value: Int) -> String {
         switch value {
         case 1...2:
-            return "Boa"
+            return NSLocalizedString("aqi.good", comment: "Good air quality")
         case 3...4:
-            return "Moderada"
+            return NSLocalizedString("aqi.moderate", comment: "Moderate air quality")
         case 5...6:
-            return "Sensível"
+            return NSLocalizedString("aqi.sensitive", comment: "Unhealthy for sensitive groups")
         case 7...8:
-            return "Insalubre"
+            return NSLocalizedString("aqi.unhealthy", comment: "Unhealthy air quality")
         case 9...10:
-            return "Muito Insalubre"
+            return NSLocalizedString("aqi.very_unhealthy", comment: "Very unhealthy air quality")
         default:
-            return "Perigosa"
+            return NSLocalizedString("aqi.hazardous", comment: "Hazardous air quality")
         }
     }
     
     var body: some View {
         HStack(spacing: 8) {
-            // Temperatura e ícone
+            // Temperature and icon
             HStack(spacing: 4) {
                 Image(systemName: viewModel.weatherIcon)
                     .foregroundColor(.yellow)
@@ -54,18 +54,18 @@ struct WeatherView: View {
                 }
             }
             
-            // Separador vertical
+            // Vertical separator
             Rectangle()
                 .fill(Color.gray.opacity(0.3))
                 .frame(width: 1, height: 20)
             
-            // Indicador de qualidade do ar
+            // Air quality indicator
             HStack(spacing: 4) {
                 Circle()
                     .fill(aqiColor(viewModel.aqi))
                     .frame(width: 12, height: 12)
                 
-                Text("AQI \(viewModel.aqi)")
+                Text("\(NSLocalizedString("weather.aqi", comment: "Air Quality Index")) \(viewModel.aqi)")
                     .font(.system(size: 14))
                 
                 Text(aqiDescription(viewModel.aqi))
@@ -78,8 +78,10 @@ struct WeatherView: View {
         .background(.ultraThinMaterial)
         .cornerRadius(8)
         .onAppear {
-            // Lisbon coordinates
-            viewModel.fetchWeather(latitude: 38.7223, longitude: -9.1393)
+            Task {
+                // Lisbon coordinates
+                await viewModel.fetchWeather(latitude: 38.7223, longitude: -9.1393)
+            }
         }
     }
 }
@@ -113,20 +115,18 @@ class WeatherViewModel: ObservableObject {
         self.weatherService = weatherService
     }
     
-    func fetchWeather(latitude: Double, longitude: Double) {
-        Task {
-            do {
-                let weatherData = try await weatherService.getCurrentWeather(latitude: latitude, longitude: longitude)
-                temperature = weatherData.main.temp
-                condition = weatherData.weather.first?.main ?? ""
-                aqi = weatherData.aqi
-            } catch {
-                print("Error fetching weather: \(error)")
-            }
+    func fetchWeather(latitude: Double, longitude: Double) async {
+        do {
+            let weatherData = try await weatherService.getCurrentWeather(latitude: latitude, longitude: longitude)
+            temperature = weatherData.main.temp
+            condition = weatherData.weather.first?.main ?? ""
+            aqi = weatherData.aqi
+        } catch {
+            print("Error fetching weather: \(error)")
         }
     }
 }
 
 #Preview {
     WeatherView()
-} 
+}
