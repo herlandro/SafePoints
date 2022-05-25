@@ -1,0 +1,7 @@
+// AQI Level Descriptions
+"aqi.good" = "Bonne";
+"aqi.moderate" = "Modérée";
+"aqi.sensitive" = "Malsain pour Groupes Sensibles";
+"aqi.unhealthy" = "Malsain";
+"aqi.very_unhealthy" = "Très Malsain";
+"aqi.hazardous" = "Dangereuse"; 

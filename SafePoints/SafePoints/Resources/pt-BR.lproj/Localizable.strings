@@ -1,0 +1,10 @@
+// AQI Level Descriptions
+"aqi.good" = "Boa";
+"aqi.moderate" = "Moderada";
+"aqi.sensitive" = "Sensível para Grupos";
+"aqi.unhealthy" = "Insalubre";
+"aqi.very_unhealthy" = "Muito Insalubre";
+"aqi.hazardous" = "Perigosa";
+
+// Weather View
+"weather.aqi" = "IQA"; 
